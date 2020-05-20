@@ -16,7 +16,7 @@ const Chart = ({data: {confirmed, recovered, deaths}, country}) =>{
 
         fetchAPI();
 
-    }, [])
+    }, [dailyData])
 
 
     const barChar = (
